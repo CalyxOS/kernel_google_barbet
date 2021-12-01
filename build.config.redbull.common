@@ -2,9 +2,9 @@
 DEFCONFIG=redbull_defconfig
 BUILD_INITRAMFS=1
 EXT_MODULES="
-private/msm-google-modules/wlan/qcacld-3.0
-private/msm-google-modules/touch/fts
-private/msm-google-modules/touch/sec
+barbet/private/msm-google-modules/wlan/qcacld-3.0
+barbet/private/msm-google-modules/touch/fts
+barbet/private/msm-google-modules/touch/sec
 "
 
 if [ -n "${BUILD_BOOT_IMG}" ]; then
